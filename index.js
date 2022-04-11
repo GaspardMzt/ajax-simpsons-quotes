@@ -18,7 +18,6 @@ function fetchSimpsonQuoteJSON() {
         <img src="${simpsonQuote.image}" />
         <p>Quote : ${simpsonQuote.quote}</p>
       `;
-
       document.querySelector("#simpsonQuote").innerHTML = simpsonQuoteHtml;
     });
 }
